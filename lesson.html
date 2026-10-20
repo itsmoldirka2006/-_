@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        .red { color: red; }
+        .blue { color: blue; }
+    </style>
+</head>
+<body>
+
+<form id = "forma">
+    <input id ="name" type="text">
+    <button type="submit">Submit</button>
+</form>
+
+<script>
+document.getElementById("forma").addEventListener("click", function(){
+    const text = document.getElementById("name").value;
+    alert(text)
+
+})
+
+</script>
+</body>
+</html>
